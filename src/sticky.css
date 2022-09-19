@@ -1,0 +1,49 @@
+body{
+    background: pink;
+    margin: 0;
+
+}
+
+#app{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px); /*if the screen is too small is going to drop to the next line*/
+    padding:24px;
+    gap:24px;
+}
+
+.note{
+    background: #f5f5cd;
+    height: 200px;
+    box-sizing: border-box; /*this will not allow the padding to increase the size of the sticky notes*/
+    padding: 30px;
+    border: none;
+    border-radius: 20%;
+    box-shadow: 0 0 7px rgba(0,0,0,0.15);
+    resize: none; /*remove the resize option for the user*/
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color:#322f55;
+}
+
+.add-note{
+    background: rgba(255, 255, 255, 0.25);
+    height: 200px;
+    border: none;
+    outline: none;
+    border-radius: 20%;
+
+    font-size: 130px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#b1afce;
+    padding-bottom: 50px;
+
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+.add-note:hover{
+    background: rgba(178, 171, 171, 0.25);
+
+}
