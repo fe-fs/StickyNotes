@@ -4,6 +4,6 @@ the browser's local storage API.
 
 *Training for media queries! 
 
-<a href="http://](https://fe-fs.github.io/StickyNotes/">Sticky Notes</a>
+<a href="https://fe-fs.github.io/StickyNotes/">Sticky Notes</a>
 
 Enjoy!
